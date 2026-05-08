@@ -1,0 +1,4 @@
+/* App.css — minimal global overrides */
+.app {
+  min-height: 100vh;
+}

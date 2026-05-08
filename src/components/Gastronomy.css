@@ -1,0 +1,146 @@
+/* ============================================
+   GASTRONOMY SECTION STYLES
+   ============================================ */
+
+.gastronomy {
+  padding: 8rem 0;
+  background: var(--color-dark);
+  position: relative;
+  overflow: hidden;
+}
+
+.gastronomy-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 5rem;
+  padding: 0 2rem;
+}
+
+.gastronomy-header .label {
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
+.gastronomy-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: var(--color-stone);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.gastronomy-title em {
+  font-style: italic;
+  color: var(--color-gold);
+}
+
+.gastronomy-desc {
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+  line-height: 1.8;
+}
+
+/* Grid Layout */
+.gastronomy-grid {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.dish-card {
+  display: flex;
+  background: rgba(245, 239, 230, 0.03);
+  border: 1px solid rgba(201, 169, 110, 0.1);
+  overflow: hidden;
+  height: 280px;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dish-card:hover {
+  border-color: rgba(201, 169, 110, 0.3);
+  transform: translateY(-5px);
+  background: rgba(245, 239, 230, 0.05);
+}
+
+.dish-card__image {
+  width: 45%;
+  position: relative;
+  overflow: hidden;
+}
+
+.dish-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+}
+
+.dish-card:hover .dish-card__image img {
+  transform: scale(1.1);
+}
+
+.dish-card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgba(15, 11, 5, 0.4));
+}
+
+.dish-card__content {
+  width: 55%;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dish-card__name {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: var(--color-gold-light);
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.dish-card__divider {
+  width: 40px;
+  height: 1px;
+  background: var(--color-gold);
+  margin-bottom: 1.5rem;
+  opacity: 0.5;
+}
+
+.dish-card__text {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .gastronomy-grid {
+    grid-template-columns: 1fr;
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 600px) {
+  .dish-card {
+    flex-direction: column;
+    height: auto;
+  }
+  .dish-card__image, .dish-card__content {
+    width: 100%;
+  }
+  .dish-card__image {
+    height: 250px;
+  }
+  .gastronomy-title {
+    font-size: 2.2rem;
+  }
+}
