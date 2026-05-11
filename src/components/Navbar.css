@@ -121,6 +121,19 @@
   color: var(--color-gold);
 }
 
+@media (max-width: 768px) {
+  .navbar-topbar {
+    padding: 0.25rem 0;
+  }
+  .navbar-topbar__contacts {
+    display: none; /* Mobile'da çok kalabalık olduğu için gizliyoruz, zaten menüde olabilir */
+  }
+  .navbar-topbar__inner {
+    justify-content: flex-end;
+    padding: 0 1.25rem;
+  }
+}
+
 /* Main nav */
 .navbar-main {
   max-width: var(--container-width);
