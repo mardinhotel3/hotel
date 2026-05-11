@@ -123,14 +123,24 @@
 
 @media (max-width: 768px) {
   .navbar-topbar {
-    padding: 0.25rem 0;
-  }
-  .navbar-topbar__contacts {
-    display: none; /* Mobile'da çok kalabalık olduğu için gizliyoruz, zaten menüde olabilir */
+    padding: 0.75rem 0;
   }
   .navbar-topbar__inner {
-    justify-content: flex-end;
+    flex-direction: column;
+    gap: 0.75rem;
     padding: 0 1.25rem;
+  }
+  .navbar-topbar__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+  }
+  .navbar-topbar__right {
+    width: 100%;
+    justify-content: center;
+    border-top: 1px solid rgba(201, 169, 110, 0.1);
+    padding-top: 0.5rem;
   }
 }
 
