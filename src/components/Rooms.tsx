@@ -1,6 +1,5 @@
 import { Users, Maximize2, Eye } from 'lucide-react';
 import roomHero from '../assets/images/room-hero.jpg';
-import suite from '../assets/images/suite.jpg';
 import terrace from '../assets/images/terrace.jpg';
 import { useLanguage } from '../context/LanguageContext';
 import './Rooms.css';
