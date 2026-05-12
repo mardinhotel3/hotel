@@ -113,9 +113,16 @@ export default function Navbar() {
             {t(link.key)}
           </a>
         ))}
-        <button className="btn-primary" onClick={() => setMobileOpen(false)}>
+        <a 
+          href="https://wa.me/905309298347" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="btn-primary" 
+          onClick={() => setMobileOpen(false)}
+          style={{ textAlign: 'center', display: 'flex', justifyContent: 'center' }}
+        >
           <span>{t('nav.rezervasyonYap')}</span>
-        </button>
+        </a>
       </div>
     </>
   );
