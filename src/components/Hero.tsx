@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import heroBg from '../assets/images/hero-bg.jpg';
-import roomHero from '../assets/images/room-hero.jpg';
-import terrace from '../assets/images/terrace.jpg';
+import banner1 from '../assets/images/banner1.png';
+import banner2 from '../assets/images/banner2.png';
 import { useLanguage } from '../context/LanguageContext';
 import './Hero.css';
 
 const slides = [
   {
-    image: heroBg,
+    image: banner1,
     labelKey: 'hero.slide1.label',
     titleKey1: 'hero.slide1.title1',
     titleKeyEm: 'hero.slide1.titleEm',
@@ -16,7 +16,7 @@ const slides = [
     subtitleKey: 'hero.slide1.subtitle',
   },
   {
-    image: roomHero,
+    image: banner2,
     labelKey: 'hero.slide2.label',
     titleKey1: 'hero.slide2.title1',
     titleKeyEm: 'hero.slide2.titleEm',
@@ -24,7 +24,7 @@ const slides = [
     subtitleKey: 'hero.slide2.subtitle',
   },
   {
-    image: terrace,
+    image: heroBg,
     labelKey: 'hero.slide3.label',
     titleKey1: 'hero.slide3.title1',
     titleKeyEm: 'hero.slide3.titleEm',
@@ -70,9 +70,14 @@ export default function Hero() {
         <span className="hero-ornament">✦ ✦ ✦</span>
         <p className="hero-subtitle">{t(slides[current].subtitleKey)}</p>
         <div className="hero-actions">
-          <button className="btn-outline" style={{ borderColor: 'rgba(201,169,110,0.7)', color: 'rgba(201,169,110,0.9)' }}>
+          <a 
+            href="https://wa.me/905309298347" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="btn-primary"
+          >
             <span>{t('hero.btn.kesfet')}</span>
-          </button>
+          </a>
         </div>
       </div>
 

@@ -1,14 +1,16 @@
 import { useState } from 'react';
 import { ZoomIn, X } from 'lucide-react';
 import heroBg from '../assets/images/hero-bg.jpg';
-import roomHero from '../assets/images/room-hero.jpg';
-import terrace from '../assets/images/terrace.jpg';
-import spa from '../assets/images/spa.jpg';
-import suite from '../assets/images/suite.jpg';
+import banner1 from '../assets/images/banner1.png';
+import banner2 from '../assets/images/banner2.png';
+import room3k from '../assets/images/3k.png';
+import room2k from '../assets/images/2k.png';
+import alt2k from '../assets/images/2k ana kapak.png';
+import extra3k from '../assets/images/3kdevamı.png';
 import { useLanguage } from '../context/LanguageContext';
 import './Gallery.css';
 
-const photos = [heroBg, roomHero, terrace, spa, suite];
+const photos = [heroBg, banner1, banner2, room3k, room2k, alt2k, extra3k];
 
 export default function Gallery() {
   const { t } = useLanguage();

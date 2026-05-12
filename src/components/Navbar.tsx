@@ -82,7 +82,7 @@ export default function Navbar() {
           <div className="navbar-logo">
             <div className="navbar-logo__inner">
               <span className="navbar-logo__ornament">✦</span>
-              <div className="navbar-logo__name">TERRACE MARDİN</div>
+              <div className="navbar-logo__name">TERRACE MERDİN</div>
               <div className="navbar-logo__subtitle">{t('nav.subtitle')}</div>
             </div>
           </div>

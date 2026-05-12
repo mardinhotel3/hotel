@@ -20,7 +20,7 @@ export const translations: Translations = {
   "nav.iletisim": { TR: "İLETİŞİM", EN: "CONTACT" },
   "nav.rezervasyon": { TR: "Rezervasyon", EN: "Reservation" },
   "nav.rezervasyonYap": { TR: "Rezervasyon Yap", EN: "Book Now" },
-  "nav.subtitle": { TR: "Terrace Mardin Otel", EN: "Terrace Mardin Hotel" },
+  "nav.subtitle": { TR: "Terrace Merdin Otel", EN: "Terrace Merdin Hotel" },
 
   // Hero
   "hero.slide1.label": { TR: "Mezopotamya'nın Kalbinde", EN: "In the Heart of Mesopotamia" },
@@ -44,7 +44,7 @@ export const translations: Translations = {
   "hero.btn.rezervasyon": { TR: "Rezervasyon Yap", EN: "Book Now" },
   "hero.btn.kesfet": { TR: "Oteli Keşfet", EN: "Discover Hotel" },
   "hero.badge.label": { TR: "Awarded to", EN: "Awarded to" },
-  "hero.badge.hotel": { TR: "Terrace Mardin Otel", EN: "Terrace Mardin Hotel" },
+  "hero.badge.hotel": { TR: "Terrace Merdin Otel", EN: "Terrace Merdin Hotel" },
   "hero.scroll": { TR: "Keşfet", EN: "Explore" },
 
   // About
@@ -71,8 +71,8 @@ export const translations: Translations = {
   "rooms.incele": { TR: "İncele →", EN: "View →" },
 
   "room1.category": { TR: "Öne Çıkan Oda", EN: "Featured Room" },
-  "room1.name": { TR: "Tarihi Taş Suit", EN: "Historical Stone Suite" },
-  "room1.guests": { TR: "2 Kişi", EN: "2 Guests" },
+  "room1.name": { TR: "Standart 3 Kişilik Oda", EN: "Standard Triple Room" },
+  "room1.guests": { TR: "3 Kişi", EN: "3 Guests" },
   "room1.view": { TR: "Panoramik Şehir", EN: "Panoramic City" },
 
   "room2.category": { TR: "Klasik Oda", EN: "Classic Room" },
@@ -81,8 +81,8 @@ export const translations: Translations = {
   "room2.view": { TR: "Avlu Manzarası", EN: "Courtyard View" },
 
   "room3.category": { TR: "Premium Suite", EN: "Premium Suite" },
-  "room3.name": { TR: "Teras Suit", EN: "Terrace Suite" },
-  "room3.guests": { TR: "2-4 Kişi", EN: "2-4 Guests" },
+  "room3.name": { TR: "Çift Kişilik Oda", EN: "Double Room" },
+  "room3.guests": { TR: "2 Kişi", EN: "2 Guests" },
   "room3.view": { TR: "Mezopotamya Ovası", EN: "Mesopotamian Plains" },
 
   // Services
@@ -179,8 +179,8 @@ export const translations: Translations = {
   "form.guest4": { TR: "4+ Kişi", EN: "4+ Guests" },
   "form.room1": { TR: "Tüm Odalar", EN: "All Rooms" },
   "form.room2": { TR: "Standart Taş Oda", EN: "Standard Stone Room" },
-  "form.room3": { TR: "Tarihi Taş Suit", EN: "Historical Stone Suite" },
-  "form.room4": { TR: "Teras Suit", EN: "Terrace Suite" },
+  "form.room3": { TR: "Standart 3 Kişilik Oda", EN: "Standard Triple Room" },
+  "form.room4": { TR: "Çift Kişilik Oda", EN: "Double Room" },
 
   // Testimonials
   "test.label": { TR: "Misafir Yorumları", EN: "Guest Reviews" },
@@ -219,7 +219,7 @@ export const translations: Translations = {
   "test30.text": { TR: "Mardin'e her geldiğimde mutlaka burada kalacağım. Gerçek bir ev konforu ve otel lüksü.", EN: "I will definitely stay here every time I come to Mardin. Real home comfort and hotel luxury." },
 
   // Footer
-  "footer.tagline": { TR: "Terrace Mardin Butik Otel · est. 1627", EN: "Terrace Mardin Boutique Hotel · est. 1627" },
+  "footer.tagline": { TR: "Terrace Merdin Butik Otel · est. 1627", EN: "Terrace Merdin Boutique Hotel · est. 1627" },
   "footer.desc": { TR: "Yüzyıllık taş duvarları, özgün Mardin mimarisi ve Mezopotamya manzarasıyla size tarihin içinde lüks bir konaklama sunuyoruz.", EN: "With its century-old stone walls, original Mardin architecture and Mesopotamian view, we offer you a luxurious stay in history." },
   
   "footer.col1.title": { TR: "Keşfet", EN: "Explore" },
@@ -242,7 +242,7 @@ export const translations: Translations = {
     EN: "Eski Mardin Üçyol 1. Cadde, Şehidiye District Yeni Sk. 20. Sk Outer Door No: 5<br />Terrace Merdin Boutique Hotel & Mansion" 
   },
   
-  "footer.copy": { TR: "© {year} Terrace Mardin Otel. Tüm hakları saklıdır.", EN: "© {year} Terrace Mardin Hotel. All rights reserved." },
+  "footer.copy": { TR: "© {year} Terrace Merdin Otel. Tüm hakları saklıdır.", EN: "© {year} Terrace Merdin Hotel. All rights reserved." },
   "footer.bottom1": { TR: "Gizlilik Politikası", EN: "Privacy Policy" },
   "footer.bottom2": { TR: "Kullanım Koşulları", EN: "Terms of Use" },
   "footer.bottom3": { TR: "Çerez Politikası", EN: "Cookie Policy" },

@@ -1,4 +1,4 @@
-import roomHero from '../assets/images/room-hero.jpg';
+import banner2 from '../assets/images/banner2.png';
 import heroBg from '../assets/images/hero-bg.jpg';
 import { useLanguage } from '../context/LanguageContext';
 import './About.css';
@@ -11,7 +11,7 @@ export default function About() {
         {/* Images */}
         <div className="about-images">
           <div className="about-images__main">
-            <img src={roomHero} alt="Tarihi Oda İç Mekânı" />
+            <img src={banner2} alt="Tarihi Oda İç Mekânı" />
           </div>
           <div className="about-images__accent">
             <img src={heroBg} alt="Mardin Şehir Manzarası" />

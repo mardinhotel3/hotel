@@ -1,5 +1,5 @@
 import { Check } from 'lucide-react';
-import terrace from '../assets/images/terrace.jpg';
+import banner1 from '../assets/images/banner1.png';
 import { useLanguage } from '../context/LanguageContext';
 import './Reservation.css';
 
@@ -8,7 +8,7 @@ export default function Reservation() {
   return (
     <section className="reservation" id="rezervasyon">
       <div className="reservation__bg">
-        <img src={terrace} alt="Rezervasyon Arka Planı" />
+        <img src={banner1} alt="Rezervasyon Arka Planı" />
       </div>
 
       <div className="reservation__content">
