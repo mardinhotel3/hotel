@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Users, Maximize2, Eye } from 'lucide-react';
+import { Users, Eye } from 'lucide-react';
 import tripleRoom from '../assets/images/3k.png';
 import doubleRoom from '../assets/images/2k.png';
 import { useLanguage } from '../context/LanguageContext';
