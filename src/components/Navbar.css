@@ -326,3 +326,11 @@
   .navbar-main { grid-template-columns: auto 1fr auto; }
   .navbar-logo { text-align: left; }
 }
+@media (max-width: 480px) {
+  .navbar-logo__name {
+    font-size: 1.1rem;
+  }
+  .navbar-logo__subtitle {
+    font-size: 0.55rem;
+  }
+}
