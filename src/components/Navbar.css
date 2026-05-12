@@ -322,15 +322,27 @@
 
 @media (max-width: 900px) {
   .navbar-links { display: none; }
-  .navbar-mobile-toggle { 
-    display: flex; 
-    margin-right: -10px; /* Kenara daha da yaklaştırır */
-  }
+  
   .navbar-main { 
-    grid-template-columns: auto 1fr auto; 
-    padding: 0 1.25rem; /* Kenar boşluklarını azalttık */
+    grid-template-columns: 1fr auto; /* İki sütuna düşürdük: Logo ve Toggle */
+    padding: 0 1rem;
+    gap: 1rem;
   }
-  .navbar-logo { text-align: left; }
+
+  .navbar-logo { 
+    text-align: left; 
+    transform: none; /* Masaüstündeki kaydırmayı sıfırladık */
+  }
+
+  .navbar-logo__inner {
+    padding: 0.5rem 0; /* İç paddingi temizledik */
+  }
+
+  .navbar-mobile-toggle { 
+    display: flex;
+    justify-self: end; /* En sağa ittik */
+    margin-right: -5px;
+  }
 }
 @media (max-width: 480px) {
   .navbar-logo__name {
