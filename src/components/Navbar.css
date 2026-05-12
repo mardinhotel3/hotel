@@ -322,8 +322,14 @@
 
 @media (max-width: 900px) {
   .navbar-links { display: none; }
-  .navbar-mobile-toggle { display: flex; }
-  .navbar-main { grid-template-columns: auto 1fr auto; }
+  .navbar-mobile-toggle { 
+    display: flex; 
+    margin-right: -10px; /* Kenara daha da yaklaştırır */
+  }
+  .navbar-main { 
+    grid-template-columns: auto 1fr auto; 
+    padding: 0 1.25rem; /* Kenar boşluklarını azalttık */
+  }
   .navbar-logo { text-align: left; }
 }
 @media (max-width: 480px) {
