@@ -46,7 +46,7 @@ export default function About() {
 
           <div className="about-stats">
             <div className="about-stat">
-              <span className="about-stat__num">18</span>
+              <span className="about-stat__num">5</span>
               <span className="about-stat__label">{t('about.stat.oda')}</span>
             </div>
             <div className="about-stat">

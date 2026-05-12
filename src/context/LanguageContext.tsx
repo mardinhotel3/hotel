@@ -66,7 +66,7 @@ export const translations: Translations = {
   "rooms.label": { TR: "Odalar & Suitler", EN: "Rooms & Suites" },
   "rooms.title1": { TR: "Her Oda Bir ", EN: "Every Room is a " },
   "rooms.titleEm": { TR: "Hikaye", EN: "Story" },
-  "rooms.subtitle": { TR: "Özgün Mardin taşından restore edilmiş 18 odamız, tarihi atmosferi çağdaş lüksle buluşturuyor.", EN: "Our 18 rooms, restored from original Mardin stone, bring together historical atmosphere with contemporary luxury." },
+  "rooms.subtitle": { TR: "Özgün Mardin taşından restore edilmiş 5 odamız, tarihi atmosferi çağdaş lüksle buluşturuyor.", EN: "Our 5 rooms, restored from original Mardin stone, bring together historical atmosphere with contemporary luxury." },
   "rooms.gece": { TR: "/ gece", EN: "/ night" },
   "rooms.incele": { TR: "İncele →", EN: "View →" },
 
